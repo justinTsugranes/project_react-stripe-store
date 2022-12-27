@@ -1,5 +1,5 @@
 import { createContext, useState } from 'react'
-import { getProductData } from './ProductsStore'
+import getProductData from './utils/GetProductData'
 
 export const CartContext = createContext({
   items: [],

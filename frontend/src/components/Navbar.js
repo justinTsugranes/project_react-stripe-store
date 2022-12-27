@@ -10,6 +10,24 @@ function NavbarComponent() {
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
 
+  const checkout = async () => {
+    await fetch('http://localhost:4000/checkout', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ items: cart.items }),
+    })
+      .then((res) => {
+        return res.json()
+      })
+      .then((res) => {
+        if (res.url) {
+          window.location.assign(res.url)
+        }
+      })
+  }
+
   const productsCount = cart.items.reduce(
     (sum, product) => sum + product.quantity,
     0,
@@ -42,7 +60,9 @@ function NavbarComponent() {
               ))}
 
               <h2>Total: {cart.getTotalCost().toFixed(2)}</h2>
-              <Button variant='success'>Purchase Items</Button>
+              <Button variant='success' onClick={checkout}>
+                Purchase Items
+              </Button>
             </>
           ) : (
             <h1>Your Cart Is Empty</h1>

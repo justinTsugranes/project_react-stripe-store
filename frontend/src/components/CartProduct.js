@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { Button } from 'react-bootstrap'
 import { CartContext } from '../CartContext'
-import { getProductData } from '../ProductsStore'
+import getProductData from '../utils/GetProductData'
 
 function CartProduct(props) {
   const cart = useContext(CartContext)
