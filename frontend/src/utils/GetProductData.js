@@ -1,6 +1,6 @@
-import { productsArray } from '../ProductsStore'
+import { productsArray } from '../constants/ProductsStore'
 
-function getProductData(id) {
+const getProductData = (id) => {
   let productData = productsArray.find((product) => product.id === id)
   if (productData === undefined) {
     console.log(`Product data does not exist for ID: ${id}`)

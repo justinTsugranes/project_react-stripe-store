@@ -1,5 +1,7 @@
 # Build a Shopping Cart with ReactJs and Stripe
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/23427966-2f087124-2131-4212-a2b5-e9a0e6f5b05d?action=collection%2Ffork&collection-url=entityId%3D23427966-2f087124-2131-4212-a2b5-e9a0e6f5b05d%26entityType%3Dcollection%26workspaceId%3D70af37b1-1005-4346-8943-d89f653d6eb1)
+
 /_
 when you click purcahse items, it will go to checkout
 once you click checkout, it will post to the backend
