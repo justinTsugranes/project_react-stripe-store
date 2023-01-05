@@ -3,6 +3,7 @@
 <!-- STATUS BADGES -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e263c86f-c661-4195-9b7f-542514d707a7/deploy-status)](https://app.netlify.com/sites/justintsugranes-react-stripe-store/deploys)
+
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/23427966-2f087124-2131-4212-a2b5-e9a0e6f5b05d?action=collection%2Ffork&collection-url=entityId%3D23427966-2f087124-2131-4212-a2b5-e9a0e6f5b05d%26entityType%3Dcollection%26workspaceId%3D70af37b1-1005-4346-8943-d89f653d6eb1)
 
 <!-- PROJECT HEADING -->
@@ -15,7 +16,7 @@
 
 ### [Mern Stripe Store][project-url]
 
-A half-stack ecommerce app styled with Bootstrap that has Stripe integration. Project uses React, Node, and Express, but doesn't store any data.
+The Fullstack Stripe Store is a full-stack ecommerce application that allows users to purchase products using the Stripe payment platform. The frontend of the application was built with React and React-Bootstrap, while the backend was built with Express and Node.js. The application also utilizes Netlify for deployment. With this project, I gained experience in creating a complete ecommerce solution, including handling payment processing and securely storing sensitive customer information. The project also included features such as a shopping cart and a product catalog. Overall, this project provided me with a comprehensive understanding of how to build a full-stack ecommerce application from start to finish.
 
 [Explore the docs][repo-url] --- [View Demo][project-url] --- [Report Bug][issues-url]
 
