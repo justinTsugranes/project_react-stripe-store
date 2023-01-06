@@ -59,8 +59,6 @@ extract the url from the json and forward it to the user
 
 _I'd love to hear any feedback or just thoughts. Feel free to reach out at my contact info below. Cheers!_
 
-<!-- TODO: UNCOMMENT APPLICABLE TECH -->
-
 ### Stack
 
 #### Frontend
